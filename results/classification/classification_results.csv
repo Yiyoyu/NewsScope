@@ -1,0 +1,12 @@
+Configuration,Representation,Classifier,Vocabulary_Size,Accuracy,Macro_Precision,Macro_Recall,Macro_F1,Train_Time_s,Predict_Time_s
+TF-IDF (Uni+Bi) + LinearSVC,TF-IDF (Uni+Bi),LinearSVC,60000,0.9242,0.924,0.9242,0.9241,7.52,0.0041
+TF-IDF (Uni+Bi) + LogisticRegression,TF-IDF (Uni+Bi),LogisticRegression,60000,0.92,0.9198,0.92,0.9198,13.64,0.005
+TF-IDF (Unigram) + LogisticRegression,TF-IDF (Unigram),LogisticRegression,35273,0.9155,0.9153,0.9155,0.9153,12.75,0.0043
+TF-IDF (Unigram) + LinearSVC,TF-IDF (Unigram),LinearSVC,35273,0.9154,0.9154,0.9154,0.9153,7.7,0.0064
+BoW + LogisticRegression,Bag of Words (Unigram),LogisticRegression,35273,0.9054,0.9053,0.9054,0.9053,12.75,0.003
+TF-IDF (Uni+Bi) + MultinomialNB,TF-IDF (Uni+Bi),MultinomialNB,60000,0.905,0.9046,0.905,0.9046,0.14,0.0077
+BoW + MultinomialNB,Bag of Words (Unigram),MultinomialNB,35273,0.9024,0.9019,0.9024,0.902,0.15,0.0061
+TF-IDF (Unigram) + MultinomialNB,TF-IDF (Unigram),MultinomialNB,35273,0.9012,0.9009,0.9012,0.9009,0.1,0.003
+Word2Vec + LogisticRegression,"Word2Vec (Skip-gram, 100d)",LogisticRegression,100,0.8943,0.8942,0.8943,0.8942,2.93,0.0065
+Word2Vec + LinearSVC,"Word2Vec (Skip-gram, 100d)",LinearSVC,100,0.8941,0.8938,0.8941,0.8939,11.92,0.0149
+BoW + LinearSVC,Bag of Words (Unigram),LinearSVC,35273,0.893,0.8931,0.893,0.893,29.47,0.0035
