@@ -1,0 +1,6 @@
+Model,Evaluation_Scope,Topics,NMI
+LDA,"All Documents (3,000)",4,0.3822
+NMF,"All Documents (3,000)",4,0.3858
+LSA,"All Documents (3,000)",4,0.2022
+BERTopic (All Docs),All Documents (incl. outliers),50,0.3151
+BERTopic (Clean),"Non-Outliers Only (2,086)",49,0.4041

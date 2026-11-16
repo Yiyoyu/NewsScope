@@ -1,0 +1,5 @@
+Model,Discovered_Topics,Outlier_Pct,Runtime_Fitting_s,Runtime_Total_s,Coherence_Cv,Coherence_NPMI,Topic_Diversity,NMI_All_Docs,NMI_Excl_Outliers
+LDA,4,0.0,24.59,24.59,0.5078,0.029,0.8,0.3822,
+NMF,4,0.0,0.15,0.15,0.6512,0.079,1.0,0.3858,
+LSA,4,0.0,0.07,0.07,0.4547,-0.031,0.675,0.2022,
+BERTopic,49,30.47,33.48,33.48,0.6306,0.1155,0.9224,0.3151,0.4041

@@ -1,0 +1,5 @@
+Model,Topics_Evaluated,C_v,C_NPMI
+LDA,4,0.5078,0.029
+NMF,4,0.6512,0.079
+LSA,4,0.4547,-0.031
+BERTopic,49,0.6306,0.1155

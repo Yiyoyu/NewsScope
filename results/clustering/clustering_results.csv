@@ -1,0 +1,9 @@
+Configuration,Algorithm,Representation,Distance_Metric,Silhouette_Score,Davies_Bouldin_Index,Runtime_s,Cluster_Sizes
+K-Means + TF-IDF (Euclidean),K-Means,TF-IDF,Euclidean,0.0169,8.5662,0.57,"[62, 216, 246, 2476]"
+K-Means + TF-IDF (Cosine (L2-approx)),K-Means,TF-IDF,Cosine (L2-approx),0.0073,10.9458,0.3,"[200, 516, 222, 2062]"
+Agglomerative + TF-IDF (Euclidean),Agglomerative,TF-IDF,Euclidean,0.0093,4.0777,28.03,"[2860, 81, 1, 58]"
+Agglomerative + TF-IDF (Cosine),Agglomerative,TF-IDF,Cosine,-0.0003,3.9444,36.98,"[2980, 3, 8, 9]"
+K-Means + Word2Vec (Euclidean),K-Means,Word2Vec,Euclidean,0.1775,1.8135,0.23,"[851, 850, 868, 431]"
+K-Means + Word2Vec (Cosine (L2-approx)),K-Means,Word2Vec,Cosine (L2-approx),0.304,1.8981,0.17,"[854, 730, 582, 834]"
+Agglomerative + Word2Vec (Euclidean),Agglomerative,Word2Vec,Euclidean,0.1505,1.9527,0.72,"[1136, 796, 745, 323]"
+Agglomerative + Word2Vec (Cosine),Agglomerative,Word2Vec,Cosine,0.2506,1.8596,0.74,"[1494, 687, 765, 54]"

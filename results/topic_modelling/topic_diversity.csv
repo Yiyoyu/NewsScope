@@ -1,0 +1,5 @@
+Model,Topics_Evaluated,Total_Words,Unique_Words,Topic_Diversity
+LDA,4,40,32,0.8
+NMF,4,40,40,1.0
+LSA,4,40,27,0.675
+BERTopic,49,490,452,0.9224
